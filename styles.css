@@ -36,3 +36,19 @@ nav ul li a {
 .section.active {
     display: block;
 }
+
+.animate {
+    animation: fadeIn 2s;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    margin: 20px 0;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
